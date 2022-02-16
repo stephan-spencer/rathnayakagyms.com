@@ -1,58 +1,8 @@
-
 <!DOCTYPE HTML>
 <html>
 <?php include 'header.php'?>
  <body>
-	<div class="fh5co-loader"></div>
-
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="top">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 text-right">
-						<p class="num">Call: +94 76 123 4567</p>
-						<ul class="fh5co-social">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="top-menu">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<div id="fh5co-logo"><a href="index.html">Rathnayaka Gyms<span>.</span></a></div>
-					</div>
-					<div class="col-xs-9 text-right menu-1">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="about.html">Trainer</a></li>
-							<li><a href="pricing.html">Pricing</a></li>
-							<li class="has-dropdown">
-								<a href="blog.html">Blog</a>
-								<ul class="dropdown">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">Contact</a></li>
-                            <li><a href="pricing.html">Login</a></li>
-						</ul>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</nav>
-
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_4.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -111,7 +61,7 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-4 animate-box">
 					<div class="trainer">
-						<a href="#"><img class="img-responsive" src="images/trainer-1.jpg" alt="trainer"></a>
+						<a href="#"><img class="img-responsive" src="images/trainer-4.jpg" alt="trainer"></a>
 						<div class="title">
 							<h3><a href="#">Angel Adams</a></h3>
 							<span>Dance Expert</span>
@@ -128,7 +78,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 animate-box">
 					<div class="trainer">
-						<a href="#"><img class="img-responsive" src="images/trainer-2.jpg" alt="trainer"></a>
+						<a href="#"><img class="img-responsive" src="images/trainer-6.jpg" alt="trainer"></a>
 						<div class="title">
 							<h3><a href="#">Arnold Smith</a></h3>
 							<span>Body Building Expert</span>
@@ -145,7 +95,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 animate-box">
 					<div class="trainer">
-						<a href="#"><img class="img-responsive" src="images/trainer-3.jpg" alt="trainer"></a>
+						<a href="#"><img class="img-responsive" src="images/trainer-5.jpg" alt="trainer"></a>
 						<div class="title">
 							<h3><a href="#">Rachel Seely</a></h3>
 							<span>Yoga Expert</span>
@@ -164,7 +114,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-schedule" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);">
+	<div id="fh5co-schedule" class="fh5co-bg" style="background-image: url(images/img_bg_6.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -236,7 +186,7 @@
 									<span><img src="images/exercise.svg" class="img-responsive" alt=""></span>
 									<span class="time">7:00 AM - 8AM</span>
 									<h4>Cardio</h4>
-									<small>Angel Adams</small>
+									<small>Angel Adamss</small>
 								</li>
 							</ul>
 						</div>
@@ -578,7 +528,7 @@
 					<div class="col-md-3 animate-box">
 						<div class="price-box">
 							<h2 class="pricing-plan">Starter</h2>
-							<div class="price"><sup class="currency">$</sup>9<small>/month</small></div>
+							<div class="price"><sup class="currency">Rs</sup>500<small>/month</small></div>
 							<ul class="classes">
 								<li>15 Cardio Classes</li>
 								<li class="color">10 Swimming Lesson</li>
@@ -595,7 +545,7 @@
 					<div class="col-md-3 animate-box">
 						<div class="price-box">
 							<h2 class="pricing-plan">Basic</h2>
-							<div class="price"><sup class="currency">$</sup>27<small>/month</small></div>
+							<div class="price"><sup class="currency">Rs</sup>1000<small>/month</small></div>
 							<ul class="classes">
 								<li>15 Cardio Classes</li>
 								<li class="color">10 Swimming Lesson</li>
@@ -612,7 +562,7 @@
 					<div class="col-md-3 animate-box">
 						<div class="price-box popular">
 							<h2 class="pricing-plan pricing-plan-offer">Pro <span>Best Offer</span></h2>
-							<div class="price"><sup class="currency">$</sup>74<small>/month</small></div>
+							<div class="price"><sup class="currency">Rs</sup>1500<small>/month</small></div>
 							<ul class="classes">
 								<li>15 Cardio Classes</li>
 								<li class="color">10 Swimming Lesson</li>
@@ -629,7 +579,7 @@
 					<div class="col-md-3 animate-box">
 						<div class="price-box">
 							<h2 class="pricing-plan">Unlimited</h2>
-							<div class="price"><sup class="currency">$</sup>140<small>/month</small></div>
+							<div class="price"><sup class="currency">Rs</sup>2000<small>/month</small></div>
 							<ul class="classes">
 								<li>15 Cardio Classes</li>
 								<li class="color">10 Swimming Lesson</li>
@@ -777,7 +727,7 @@
 	</div>
 
 
-	<div id="fh5co-started" class="fh5co-bg" style="background-image: url(images/img_bg_3.jpg);">
+	<div id="fh5co-started" class="fh5co-bg" style="background-image: url(images/img_bg_5.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
