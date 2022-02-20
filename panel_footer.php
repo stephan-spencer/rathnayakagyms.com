@@ -21,8 +21,6 @@
 <script src="js/magnific-popup-options.js"></script>
 <!-- Main -->
 <script src="js/main.js"></script>
-
-//---------------------------------------------------------/
 <!-- ================== BEGIN BASE JS ================== -->
 <script src="plugins/jquery/jquery-1.9.1.min.js"></script>
 <script src="plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
