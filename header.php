@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-xs-9 text-right menu-1">
                         <ul>
-                            <li class="active"><a href="index.php">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li><a href="gallery.php">Gallery</a></li>
                             <li><a href="about.php">Trainer</a></li>
                             <li><a href="pricing.php">Pricing</a></li>

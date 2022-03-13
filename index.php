@@ -10,8 +10,8 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Make it a lifestyle, not a duty</h1>
-							<h2>Fitness Redefined <a href="http://freehtml5.co/" target="_blank">Rathnayaka Gyms</a></h2>
-							<p><a href="https://vimeo.com/channels/staffpicks/93951774" class="btn btn-primary popup-vimeo">Watch Our Video</a></p>
+							<h2>Fitness Redefined</h2>
+							<p>Watch Our Video</a></p>
 						</div>
 					</div>
 				</div>

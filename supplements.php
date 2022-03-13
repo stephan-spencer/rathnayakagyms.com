@@ -8,8 +8,8 @@
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div class="display-t">
                         <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                            <h1>Blog</h1>
-                            <h2>Free html5 templates Made by <a href="http://freehtml5.co" target="_blank">freehtml5.co</a></h2>
+                            <h1>Supplement Store</h1>
+                            <h2>Eat Healthy and Be Healthy</a></h2>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Read Our Blog</h2>
+                    <h2>Browse Our Store</h2>
                     <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
                 </div>
             </div>
@@ -31,11 +31,10 @@
                     <div class="fh5co-blog animate-box">
                         <a href="#"><img class="img-responsive" src="images/gallery-4.jpg" alt=""></a>
                         <div class="blog-text">
-                            <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                            <span class="posted_on">Sep. 15th</span>
-                            <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                            <h3><a href=""#>Supplement 1</a></h3>
+                            
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -43,11 +42,10 @@
                     <div class="fh5co-blog animate-box">
                         <a href="#"><img class="img-responsive" src="images/gallery-2.jpg" alt=""></a>
                         <div class="blog-text">
-                            <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                            <span class="posted_on">Sep. 15th</span>
-                            <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                            <h3><a href=""#>Supplement 2</a></h3>
+                            
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -55,11 +53,10 @@
                     <div class="fh5co-blog animate-box">
                         <a href="#"><img class="img-responsive" src="images/gallery-3.jpg" alt=""></a>
                         <div class="blog-text">
-                            <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                            <span class="posted_on">Sep. 15th</span>
-                            <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                            <h3><a href=""#>Supplement 3</a></h3>
+                            
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -69,11 +66,10 @@
                     <div class="fh5co-blog animate-box">
                         <a href="#"><img class="img-responsive" src="images/gallery-4.jpg" alt=""></a>
                         <div class="blog-text">
-                            <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                            <span class="posted_on">Sep. 15th</span>
-                            <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                            <h3><a href=""#>Supplement 4</a></h3>
+                            
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -81,11 +77,10 @@
                     <div class="fh5co-blog animate-box">
                         <a href="#"><img class="img-responsive" src="images/gallery-2.jpg" alt=""></a>
                         <div class="blog-text">
-                            <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                            <span class="posted_on">Sep. 15th</span>
-                            <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                            <h3><a href=""#>Supplement 5</a></h3>
+                            
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -93,11 +88,10 @@
                     <div class="fh5co-blog animate-box">
                         <a href="#"><img class="img-responsive" src="images/gallery-3.jpg" alt=""></a>
                         <div class="blog-text">
-                            <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                            <span class="posted_on">Sep. 15th</span>
-                            <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                            <h3><a href=""#>Supplement 6</a></h3>
+                    
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
                     </div>
                 </div>
