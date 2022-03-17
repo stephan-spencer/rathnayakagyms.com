@@ -12,8 +12,10 @@
 <link href="css/style.min.css" rel="stylesheet" />
 <link href="css/style-responsive.min.css" rel="stylesheet" />
 <link href="css/theme/default.css" rel="stylesheet" id="theme" />
+<link href="plugins/switchery/switchery.min.css" rel="stylesheet" />
 <!-- ================== END BASE CSS STYLE ================== -->
 
 <!-- ================== BEGIN BASE JS ================== -->
 <script src="plugins/pace/pace.min.js"></script>
 <!-- ================== END BASE JS ================== -->
+

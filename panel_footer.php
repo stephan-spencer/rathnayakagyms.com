@@ -30,6 +30,7 @@
 <script src="crossbrowserjs/html5shiv.js"></script>
 <script src="crossbrowserjs/respond.min.js"></script>
 <script src="crossbrowserjs/excanvas.min.js"></script>
+<script src="plugins/switchery/switchery.min.js"></script>
 <![endif]-->
 <script src="plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="plugins/jquery-cookie/jquery.cookie.js"></script>

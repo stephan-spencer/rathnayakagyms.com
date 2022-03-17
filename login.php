@@ -55,10 +55,10 @@
                         </label>
                     </div>
                     <div class="login-buttons">
-                        <button type="submit" class="btn btn-primary btn-block btn-lg" value="Login">Sign me in</button>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" value="Login" >Sign me in</button>
                     </div>
                     <div class="m-t-20 m-b-40 p-b-40 text-inverse">
-                        Not a member yet? Click <a href="register_v3.html">here</a> to register.
+                        Not a member yet? Click <a href="login.php">here</a> to register.
                     </div>
                     <hr />
 
