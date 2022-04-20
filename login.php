@@ -1,16 +1,16 @@
 <?php
 // Initialize the session
 session_start();
-include 'panel_header.php';
 
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: admin_dashboard.php");
+    header("location: welcome.php");
     exit;
 }
 
 // Include config file
 require_once "config.php";
+
 
 // Define variables and initialize with empty values
 $username = $password = "";
@@ -36,7 +36,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Validate credentials
     if(empty($username_err) && empty($password_err)){
         // Prepare a select statement
-        $sql = "SELECT user_id, username, password FROM user WHERE username = ?";
+        $sql = "SELECT id, username, password FROM users WHERE username = ?";
 
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
@@ -128,12 +128,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <!-- end login-header -->
             <!-- begin login-content -->
             <div class="login-content">
-                <form action="" method="POST" class="margin-bottom-0">
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" class="margin-bottom-0">
                     <div class="form-group m-b-15">
-                        <input id="username" type="text" class="form-control input-lg" placeholder="Username" required value="" />
+                        <input id="username" name="username" type="text" class="form-control input-lg" placeholder="Username" required value="" />
                     </div>
                     <div class="form-group m-b-15">
-                        <input id="password" type="password" class="form-control input-lg" placeholder="Password" required />
+                        <input id="password" name="password" type="password" class="form-control input-lg" placeholder="Password" required />
                     </div>
                     <div class="checkbox m-b-30">
                         <label>
