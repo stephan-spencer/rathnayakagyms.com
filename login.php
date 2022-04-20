@@ -1,9 +1,95 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
+<?php
+// Initialize the session
+session_start();
+include 'panel_header.php';
+
+// Check if the user is already logged in, if yes then redirect him to welcome page
+if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+    header("location: admin_dashboard.php");
+    exit;
+}
+
+// Include config file
+require_once "config.php";
+
+// Define variables and initialize with empty values
+$username = $password = "";
+$username_err = $password_err = $login_err = "";
+
+// Processing form data when form is submitted
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+
+    // Check if username is empty
+    if(empty(trim($_POST["username"]))){
+        $username_err = "Please enter username.";
+    } else{
+        $username = trim($_POST["username"]);
+    }
+
+    // Check if password is empty
+    if(empty(trim($_POST["password"]))){
+        $password_err = "Please enter your password.";
+    } else{
+        $password = trim($_POST["password"]);
+    }
+
+    // Validate credentials
+    if(empty($username_err) && empty($password_err)){
+        // Prepare a select statement
+        $sql = "SELECT user_id, username, password FROM user WHERE username = ?";
+
+        if($stmt = mysqli_prepare($link, $sql)){
+            // Bind variables to the prepared statement as parameters
+            mysqli_stmt_bind_param($stmt, "s", $param_username);
+
+            // Set parameters
+            $param_username = $username;
+
+            // Attempt to execute the prepared statement
+            if(mysqli_stmt_execute($stmt)){
+                // Store result
+                mysqli_stmt_store_result($stmt);
+
+                // Check if username exists, if yes then verify password
+                if(mysqli_stmt_num_rows($stmt) == 1){
+                    // Bind result variables
+                    mysqli_stmt_bind_result($stmt, $id, $username, $hashed_password);
+                    if(mysqli_stmt_fetch($stmt)){
+                        if(password_verify($password, $hashed_password)){
+                            // Password is correct, so start a new session
+                            session_start();
+
+                            // Store data in session variables
+                            $_SESSION["loggedin"] = true;
+                            $_SESSION["id"] = $id;
+                            $_SESSION["username"] = $username;
+
+                            // Redirect user to welcome page
+                            header("location: welcome.php");
+                        } else{
+                            // Password is not valid, display a generic error message
+                            $login_err = "Invalid username or password.";
+                        }
+                    }
+                } else{
+                    // Username doesn't exist, display a generic error message
+                    $login_err = "Invalid username or password.";
+                }
+            } else{
+                echo "Oops! Something went wrong. Please try again later.";
+            }
+
+            // Close statement
+            mysqli_stmt_close($stmt);
+        }
+    }
+
+    // Close connection
+    mysqli_close($link);
+}
+?>
 <head>
-  <?php include 'panel_header.php' ?>
+
 </head>
 <body class="pace-top bg-white">
 <!-- begin #page-loader -->
@@ -44,10 +130,10 @@
             <div class="login-content">
                 <form action="" method="POST" class="margin-bottom-0">
                     <div class="form-group m-b-15">
-                        <input type="text" class="form-control input-lg" placeholder="Username" required value="" />
+                        <input id="username" type="text" class="form-control input-lg" placeholder="Username" required value="" />
                     </div>
                     <div class="form-group m-b-15">
-                        <input type="password" class="form-control input-lg" placeholder="Password" required />
+                        <input id="password" type="password" class="form-control input-lg" placeholder="Password" required />
                     </div>
                     <div class="checkbox m-b-30">
                         <label>
@@ -79,5 +165,3 @@
 <?php include 'panel_footer.php' ?>
 </body>
 
-<!-- Mirrored from seantheme.com/color-admin-v3.0/admin/apple/login_v3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Feb 2018 10:56:09 GMT -->
-</html>
