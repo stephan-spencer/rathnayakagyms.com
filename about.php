@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <?php include 'header.php'?>
-    <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+    <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/trainer-0.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -23,13 +23,13 @@
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                     <h2>Fitness Expert</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                    <p>World Class Trainers for your Special Needs</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 animate-box">
                     <div class="trainer">
-                        <a href="#"><img class="img-responsive" src="images/trainer-1.jpg" alt="trainer"></a>
+                        <a href="#"><img class="img-responsive" src="images/trainer-4.jpg" alt="trainer"></a>
                         <div class="title">
                             <h3><a href="#">Angel Adams</a></h3>
                             <span>Dance Expert</span>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 animate-box">
                     <div class="trainer">
-                        <a href="#"><img class="img-responsive" src="images/trainer-2.jpg" alt="trainer"></a>
+                        <a href="#"><img class="img-responsive" src="images/trainer-6.jpg" alt="trainer"></a>
                         <div class="title">
                             <h3><a href="#">Arnold Smith</a></h3>
                             <span>Body Building Expert</span>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 animate-box">
                     <div class="trainer">
-                        <a href="#"><img class="img-responsive" src="images/trainer-3.jpg" alt="trainer"></a>
+                        <a href="#"><img class="img-responsive" src="images/trainer-4.jpg" alt="trainer"></a>
                         <div class="title">
                             <h3><a href="#">Rachel Seely</a></h3>
                             <span>Yoga Expert</span>

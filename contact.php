@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <?php include 'header.php'?>
-    <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+    <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/contact.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -9,7 +9,7 @@
                     <div class="display-t">
                         <div class="display-tc animate-box" data-animate-effect="fadeIn">
                             <h1>Contact Us</h1>
-                            <h2>Free html5 templates Made by <a href="http://freehtml5.co" target="_blank">freehtml5.co</a></h2>
+                            <h2>Feel free to Contact Us</h2>
                         </div>
                     </div>
                 </div>
@@ -27,10 +27,10 @@
                     <div class="fh5co-contact-info">
                         <h3>Contact Information</h3>
                         <ul>
-                            <li class="address">198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-                            <li class="phone"><a href="tel://1234567920">+ 1235 2355 98</a></li>
-                            <li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-                            <li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>
+                            <li class="address">19/4 New Kandy Road, <br> Kaduwela</li>
+                            <li class="phone"><a href="tel://1234567920">+ 94 11 256 2222</a></li>
+                            <li class="email"><a href="mailto:info@yoursite.com">info@rathnyakegyms.com</a></li>
+                            <li class="url"><a href="rathnayakagyms.com">Home Page</a></li>
                         </ul>
                     </div>
 

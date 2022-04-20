@@ -1,14 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <?php include 'header.php'?>
-    <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+    <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/gym5.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div class="display-t">
                         <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                            <h1>Gallery</h1>
+                            <h1>Rathnayake Gyms</h1>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
                     <h2>Gym gallery</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                    <p>Have a tour in our latest Gymnasium</p>
                 </div>
             </div>
         </div>
@@ -31,61 +31,37 @@
                 <div class="col-md-12">
                     <ul id="fh5co-portfolio-list">
 
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); ">
+                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gym1.jpg); ">
                             <a href="#">
                                 <div class="case-studies-summary">
-                                    <span>Illustration</span>
-                                    <h2>Useful baskets</h2>
+                                    <span>Images</span>
+                                    <h2>Latest Equipments</h2>
                                 </div>
                             </a>
                         </li>
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
+                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gym2.jpg); ">
                             <a href="#">
                                 <div class="case-studies-summary">
-                                    <span>Web Design</span>
-                                    <h2>Skater man in the road</h2>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-                            <a href="#">
-                                <div class="case-studies-summary">
-                                    <span>Web Design</span>
-                                    <h2>Two Glas of Juice</h2>
+                                    <span>Images</span>
+                                    <h2>World Class Standard</h2>
                                 </div>
                             </a>
                         </li>
 
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
+                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gym3.jpg); ">
                             <a href="#">
                                 <div class="case-studies-summary">
-                                    <span>Web Design</span>
-                                    <h2>Timer starts now!</h2>
+                                    <span>Images</span>
+                                    <h2>Heavy Lifters</h2>
                                 </div>
                             </a>
                         </li>
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
+
+                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gym4.jpg); ">
                             <a href="#">
                                 <div class="case-studies-summary">
-                                    <span>Web Design</span>
-                                    <h2>Two Glas of Juice</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-                            <a href="#">
-                                <div class="case-studies-summary">
-                                    <span>Illustration</span>
-                                    <h2>Beautiful sunset</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-                            <a href="#">
-                                <div class="case-studies-summary">
-                                    <span>Web Design</span>
-                                    <h2>Two Glas of Juice</h2>
+                                    <span>Images</span>
+                                    <h2>Cardio Freaks</h2>
                                 </div>
                             </a>
                         </li>

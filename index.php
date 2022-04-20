@@ -26,7 +26,7 @@
 					<div class="services">
 						<span><img class="img-responsive" src="images/dumbbell.svg" alt=""></span>
 						<h3>Weight Lifting</h3>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius</p>
+						<p>It is the sport or activity of lifting barbells or other heavy weights. There are two standard lifts in modern weightlifting: the single-movement lift from floor to extended position, and the two-movement lift from floor to shoulder position.</p>
 						<p><a href="#" class="btn btn-primary btn-outline btn-sm">More <i class="icon-arrow-right"></i></a></p>
 					</div>
 				</div>
@@ -34,7 +34,7 @@
 					<div class="services">
 						<span><img class="img-responsive" src="images/exercise.svg" alt=""></span>
 						<h3>Running</h3>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius</p>
+						<p>Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot. Running is a type of gait characterized by an aerial phase in which all feet are above the ground (though there are exceptions).</p>
 						<p><a href="#" class="btn btn-primary btn-outline btn-sm">More <i class="icon-arrow-right"></i></a></p>
 					</div>
 				</div>
@@ -42,7 +42,7 @@
 					<div class="services">
 						<span><img class="img-responsive" src="images/yoga-carpet.svg" alt=""></span>
 						<h3>Yoga</h3>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius</p>
+						<p>Derived from the Sanskrit word “yuji,” meaning yoke or union, yoga is an ancient practice that brings together mind and body. It incorporates breathing exercises, meditation and poses designed to encourage relaxation and reduce stress.</p>
 						<p><a href="#" class="btn btn-primary btn-outline btn-sm">More <i class="icon-arrow-right"></i></a></p>
 					</div>
 				</div>
@@ -54,8 +54,8 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Fitness Expert</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<h2>Fitness Experts</h2>
+					<p>Someone who would like to consider themselves an expert in health and fitness would want to ensure that they had training in program design and also nutritional strategies as well as the behavior change aspect.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -520,7 +520,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Pricing Plan</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<p>Select the most convenient pricing plan</p>
 				</div>
 			</div>
 			<div class="row">
@@ -602,7 +602,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Gym gallery</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<p>Check out our latest Images in Our GYM</p>
 				</div>
 			</div>
 		</div>
@@ -611,61 +611,37 @@
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gym1.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Useful baskets</h2>
+									<span>Images</span>
+									<h2>Latest Equipments</h2>
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gym2.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Skater man in the road</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Two Glas of Juice</h2>
+									<span>Images</span>
+									<h2>World Class Standard</h2>
 								</div>
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gym3.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Timer starts now!</h2>
+									<span>Images</span>
+									<h2>Heavy Lifters</h2>
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gym4.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Two Glas of Juice</h2>
-								</div>
-							</a>
-						</li>
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Beautiful sunset</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Two Glas of Juice</h2>
+									<span>Images</span>
+									<h2>Cardio Freaks</h2>
 								</div>
 							</a>
 						</li>
@@ -693,7 +669,7 @@
 									</figure>
 									<span>Jean Doe, via <a href="#" class="twitter">Twitter</a></span>
 									<blockquote>
-										<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+										<p>&ldquo;Stay Healthy and Stay Strong&rdquo;</p>
 									</blockquote>
 								</div>
 							</div>
@@ -704,7 +680,7 @@
 									</figure>
 									<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
 									<blockquote>
-										<p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+										<p>&ldquo;Be healthy and work hard.&rdquo;</p>
 									</blockquote>
 								</div>
 							</div>
@@ -715,7 +691,7 @@
 									</figure>
 									<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
 									<blockquote>
-										<p>&ldquo;Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+										<p>&ldquo;This place is amazing.&rdquo;</p>
 									</blockquote>
 								</div>
 							</div>
@@ -743,53 +719,5 @@
 		</div>
 	</div>
 
-	<div id="fh5co-blog" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Recent Blog</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="images/gallery-4.jpg" alt=""></a>
-						<div class="blog-text">
-							<h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-    <span class="posted_on">Sep. 15th</span>
-							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<a href="#" class="btn btn-primary">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="images/gallery-2.jpg" alt=""></a>
-						<div class="blog-text">
-							<h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-    <span class="posted_on">Sep. 15th</span>
-							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<a href="#" class="btn btn-primary">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="images/gallery-3.jpg" alt=""></a>
-						<div class="blog-text">
-							<h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-    <span class="posted_on">Sep. 15th</span>
-							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<a href="#" class="btn btn-primary">Read More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
   <?php include 'footer.php'?>
 </html>
